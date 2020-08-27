@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-enrq",
+  "version": "1.0.0",
+  "description": "My custom sharable eslint configuration",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "eslint": ">= 6.0",
+    "prettier": ">= 1.19"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "babel-eslint": "10.x",
+    "eslint-config-prettier": "6.x",
+    "eslint-plugin-babel": "5.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "3.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "2.x"
+  }
+}

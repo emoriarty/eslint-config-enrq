@@ -13,7 +13,7 @@ Installing current package is pretty easy. Just go to the specific package you w
   }
 ```
 
-Once the file has been saved, `yarn install` (or just `yarn`) will do the rest.
+Once the file has been saved, `npm install` or `yarn install` (or just `yarn`) will do the rest.
 
 The lists below shows what plugins and configs come along included. There's no need to reinstall then again in the target package, it will be done automatically.
 
@@ -26,6 +26,7 @@ The next step is to update the eslint configuration. Most of the cases it is a j
   "extends": [
     "eslint-config-enrq",
     "eslint-config-enrq/react" // React only projects
+    "eslint-config-enrq/typescript" // Typescript projects
   ]
 }
 ```
@@ -37,7 +38,8 @@ Because, the extensibility nature of `eslint`, predefined rules can be added or 
   "root": true,
   "extends": [
     "eslint-config-enrq",
-    "eslint-config-enrq/react"
+    "eslint-config-enrq/react",
+    "eslint-config-enrq/typescript"
   ],
   "env": {
     "browser": true,

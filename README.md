@@ -25,7 +25,8 @@ The next step is to update the eslint configuration. Most of the cases it is a j
 {
   "extends": [
     "eslint-config-enrq",
-    "eslint-config-enrq/react" // React only projects
+    "eslint-config-enrq/prettier",
+    "eslint-config-enrq/react", // React only projects
     "eslint-config-enrq/typescript" // Typescript projects
   ]
 }
@@ -38,6 +39,7 @@ Because, the extensibility nature of `eslint`, predefined rules can be added or 
   "root": true,
   "extends": [
     "eslint-config-enrq",
+    "eslint-config-enrq/prettier",
     "eslint-config-enrq/react",
     "eslint-config-enrq/typescript"
   ],

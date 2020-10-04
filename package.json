@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-enrq",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "My custom sharable eslint configuration",
   "main": "index.js",
   "license": "UNLICENSED",
